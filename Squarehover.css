@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#box{
+    margin-bottom: 30px;
+
+}
+
+#rotate{
+    rotate: -45deg;
+}
+
+h1{
+    font-family: 'Gill Sans';
+}
+
+.shape{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+margin-top: 10px;
+margin-left: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+#square:hover{
+background-color: red;
+}
+
+
+#circle{
+    border-radius: 50%;
+}
+
+#circle:hover{
+    background-color: yellow;
+}
+
+#diamond{
+rotate: 45deg;
+margin-top: 55px;
+width: 160px;
+height: 160px;
+translate: 20px;
+
+}
+#diamond:hover{
+    background-color: pink;
+}
